@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: #F5FBFF;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    background: #fff;
+}
+
+.navber{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 1rem 0;
+    padding-top: 5rem;
+    padding-left: 60px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+ul{
+    width: 70%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-top: 30%;
+}
+
+li{
+    padding-bottom: 25px;
+}
+
+li a{
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+}
+
+.nav_item{
+    margin-left: 15px;
+}
+
+nav i{
+    font-size: 16px;
+    text-align: center;
+}
+
+.Logout{
+    position: absolute;
+    bottom: 80px;
+}
+
+.interface{
+    display: flex;
+    height: 100px;
+}
+
+.navigation{
+    margin: 30px;
+}
+
+.navigation p{
+    font-size: 15px;
+}
+
+.navigation span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.notify{
+    margin-left: 850px;
+    margin-top: 40px;
+}
+
+.notify a{
+    color: rgb(85, 83, 83) ;
+}
+
+.nof{
+    font-size: 15px;
+}
+
+.fis{
+    padding-top: 20px;
+}
+
+
+
